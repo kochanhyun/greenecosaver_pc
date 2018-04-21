@@ -23,11 +23,4 @@ namespace WindowsFormsApp1
             Application.Run(new Form1());
         }
     }
-    class Server
-    {
-        static void Main()
-        {
-            
-        }
-    }
 }
