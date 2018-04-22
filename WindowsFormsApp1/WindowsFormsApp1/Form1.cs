@@ -20,11 +20,8 @@ namespace WindowsFormsApp1
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            int a;
+            a = vrbl.fds;
         }
-    }
-    public class skc
-    {
-        public int fds, uvs, temps, humbs;
     }
 }

@@ -23,4 +23,16 @@ namespace WindowsFormsApp1
             Application.Run(new Form1());
         }
     }
+    public class vrbl
+    {
+        static
+        public int fds, uvs, temps, hums;
+    }
+    class sockets
+    {
+        void main()
+        {
+
+        }
+    }
 }
