@@ -37,8 +37,8 @@ namespace WindowsFormsApp1
 
             string IP = "211.187.75.188";
 
-            NetworkStream NS = null;
-            StreamReader SR = null;
+            NetworkStream ns = null;
+            StreamReader sr = null;
             TcpClient client = null;
         }
     }
