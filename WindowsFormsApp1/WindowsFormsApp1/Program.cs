@@ -6,6 +6,7 @@ using System.Windows.Forms;
 using System.Text;
 using System.Net;
 using System.Net.Sockets;
+using System.IO;
 
 
 namespace WindowsFormsApp1
@@ -28,11 +29,17 @@ namespace WindowsFormsApp1
         static
         public int fds, uvs, temps, hums;
     }
-    class sockets
+    public class sockets
     {
-        void main()
+        static void main()
         {
+            int PORT = 9999;
 
+            string IP = "211.187.75.188";
+
+            NetworkStream NS = null;
+            StreamReader SR = null;
+            TcpClient client = null;
         }
     }
 }

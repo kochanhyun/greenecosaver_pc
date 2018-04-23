@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
 using System.Net.Sockets;
+using System.IO;
 
 namespace WindowsFormsApp1
 {
@@ -20,8 +21,11 @@ namespace WindowsFormsApp1
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            int a;
-            a = vrbl.fds;
+            
+            findusts.Text = Convert.ToString(vrbl.fds);
+            uvs.Text = Convert.ToString(vrbl.uvs);
+            temps.Text = Convert.ToString(vrbl.temps);
+            hums.Text = Convert.ToString(vrbl.hums);
         }
     }
 }

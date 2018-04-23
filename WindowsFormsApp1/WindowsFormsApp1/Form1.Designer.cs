@@ -33,9 +33,9 @@
             this.uv = new System.Windows.Forms.Label();
             this.temperature = new System.Windows.Forms.Label();
             this.humidity = new System.Windows.Forms.Label();
-            this.Findusts = new System.Windows.Forms.Label();
+            this.findusts = new System.Windows.Forms.Label();
             this.uvs = new System.Windows.Forms.Label();
-            this.Temps = new System.Windows.Forms.Label();
+            this.temps = new System.Windows.Forms.Label();
             this.hums = new System.Windows.Forms.Label();
             this.Findustb = new System.Windows.Forms.Label();
             this.uvb = new System.Windows.Forms.Label();
@@ -94,15 +94,15 @@
             this.humidity.TabIndex = 4;
             this.humidity.Text = "습도";
             // 
-            // Findusts
+            // findusts
             // 
-            this.Findusts.AutoSize = true;
-            this.Findusts.Font = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.Findusts.Location = new System.Drawing.Point(42, 229);
-            this.Findusts.Name = "Findusts";
-            this.Findusts.Size = new System.Drawing.Size(111, 32);
-            this.Findusts.TabIndex = 5;
-            this.Findusts.Text = "미세먼지";
+            this.findusts.AutoSize = true;
+            this.findusts.Font = new System.Drawing.Font("Malgun Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.findusts.Location = new System.Drawing.Point(42, 229);
+            this.findusts.Name = "findusts";
+            this.findusts.Size = new System.Drawing.Size(111, 32);
+            this.findusts.TabIndex = 5;
+            this.findusts.Text = "미세먼지";
             // 
             // uvs
             // 
@@ -114,15 +114,15 @@
             this.uvs.TabIndex = 6;
             this.uvs.Text = "자외선";
             // 
-            // Temps
+            // temps
             // 
-            this.Temps.AutoSize = true;
-            this.Temps.Font = new System.Drawing.Font("Malgun Gothic", 18F);
-            this.Temps.Location = new System.Drawing.Point(480, 229);
-            this.Temps.Name = "Temps";
-            this.Temps.Size = new System.Drawing.Size(63, 32);
-            this.Temps.TabIndex = 7;
-            this.Temps.Text = "온도";
+            this.temps.AutoSize = true;
+            this.temps.Font = new System.Drawing.Font("Malgun Gothic", 18F);
+            this.temps.Location = new System.Drawing.Point(480, 229);
+            this.temps.Name = "temps";
+            this.temps.Size = new System.Drawing.Size(63, 32);
+            this.temps.TabIndex = 7;
+            this.temps.Text = "온도";
             // 
             // hums
             // 
@@ -184,9 +184,9 @@
             this.Controls.Add(this.uvb);
             this.Controls.Add(this.Findustb);
             this.Controls.Add(this.hums);
-            this.Controls.Add(this.Temps);
+            this.Controls.Add(this.temps);
             this.Controls.Add(this.uvs);
-            this.Controls.Add(this.Findusts);
+            this.Controls.Add(this.findusts);
             this.Controls.Add(this.humidity);
             this.Controls.Add(this.temperature);
             this.Controls.Add(this.uv);
@@ -206,9 +206,9 @@
         private System.Windows.Forms.Label uv;
         private System.Windows.Forms.Label temperature;
         private System.Windows.Forms.Label humidity;
-        private System.Windows.Forms.Label Findusts;
+        private System.Windows.Forms.Label findusts;
         private System.Windows.Forms.Label uvs;
-        private System.Windows.Forms.Label Temps;
+        private System.Windows.Forms.Label temps;
         private System.Windows.Forms.Label hums;
         private System.Windows.Forms.Label Findustb;
         private System.Windows.Forms.Label uvb;
