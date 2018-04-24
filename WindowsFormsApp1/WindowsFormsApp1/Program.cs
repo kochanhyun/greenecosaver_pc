@@ -33,13 +33,25 @@ namespace WindowsFormsApp1
     {
         static void main()
         {
-            int PORT = 9999;
-
             string IP = "211.187.75.188";
+            int PORT = 9999;
+            NetworkStream NS = null;
 
-            NetworkStream ns = null;
-            StreamReader sr = null;
+            StreamReader SR = null;
+
             TcpClient client = null;
+
+
+                client = new TcpClient(IP, PORT); //client 연결
+
+                SR = new StreamReader(NS, Encoding.UTF8); // Get message
+
+                string GetMessage = string.Empty;
+
+                if (SR != null) SR.Close();
+
+                if (client != null) client.Close();
+
         }
     }
 }
