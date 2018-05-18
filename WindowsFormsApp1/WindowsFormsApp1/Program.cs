@@ -26,31 +26,15 @@ namespace WindowsFormsApp1
     }
     public class vrbl
     {
-        static
-        public int fds, uvs, temps, hums;
+        static public int fds, uvs, temps, hums;
+        static public bool started;
     }
-    public class sockets
+    public class udpsockets
     {
         static void main()
         {
-            string IP = "211.187.75.188";
-            int PORT = 9999;
-            NetworkStream NS = null;
-
-            StreamReader SR = null;
-
-            TcpClient client = null;
-
-
-                client = new TcpClient(IP, PORT); //client 연결
-
-                SR = new StreamReader(NS, Encoding.UTF8); // Get message
-
-                string GetMessage = string.Empty;
-
-                if (SR != null) SR.Close();
-
-                if (client != null) client.Close();
+            vrbl.started = true;
+            UdpClient background = new UdpClient();
 
         }
     }
