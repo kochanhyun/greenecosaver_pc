@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
     public class vrbl
     {
         // 변수 선언 클래스
-        static public int fds, uvs, temps, hums;
+        static public int fds, uvs, temps, hums, count;
         static public bool started;
     }
     public class udpsockets
@@ -41,9 +41,13 @@ namespace WindowsFormsApp1
             // UdpClient 객체 성성
             UdpClient background = new UdpClient();
 
+            if (vrbl.count = 4)
+            {
+
+            }
+
             // 데이타 수신
             IPEndPoint epRemote = new IPEndPoint(IPAddress.Any, 0);
-            fds = Convert.ToString(background.Receive(ref epRemote)); // byte to string
             fds = Convert.ToString(background.Receive(ref epRemote)); // byte to string
             // UdpClient 닫기
             background.Close();
