@@ -19,13 +19,5 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-            findusts.Text = Convert.ToString(vrbl.fds);
-            uvs.Text = Convert.ToString(vrbl.uvs);
-            temps.Text = Convert.ToString(vrbl.temps);
-            hums.Text = Convert.ToString(vrbl.hums);
-        }
     }
 }
