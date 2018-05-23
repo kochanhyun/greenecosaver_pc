@@ -37,20 +37,26 @@ namespace WindowsFormsApp1
           static void Main()
           {
             string fds, uvs, temps, hums;
-           
-            // UdpClient 객체 성성
-            UdpClient background = new UdpClient();
 
-            if (vrbl.count = 4)
+            count:
+
+            if (vrbl.count != 4)
             {
+                // UdpClient 객체 성성
+                UdpClient background = new UdpClient();
 
+
+                // 데이타 수신
+                IPEndPoint epRemote = new IPEndPoint(IPAddress.Any, 0);
+                fds = Convert.ToString(background.Receive(ref epRemote)); // byte to string
+                
+                // UdpClient 닫기
+                background.Close();
+                vrbl.count++;
+                goto count;
             }
+            
 
-            // 데이타 수신
-            IPEndPoint epRemote = new IPEndPoint(IPAddress.Any, 0);
-            fds = Convert.ToString(background.Receive(ref epRemote)); // byte to string
-            // UdpClient 닫기
-            background.Close();
         }
     }
 }
