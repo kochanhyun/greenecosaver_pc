@@ -29,47 +29,45 @@ namespace WindowsFormsApp1
     public class vrbl
     {
         // 변수 선언 클래스
-        static public int fds, uvs, temps, hums, count;
+        static public int fds, uvs, temps, hums;
         static public bool started;
+
+        static void main()
+        {
+            udpsockets.main();
+        }
     }
     public class udpsockets
     {
-          static void Main()
-          {
-            string fds, uvs, temps, hums;
+        static char[] vars;
+
+        public static void main()
+        {
+
+            // UdpClient 객체 성성
+            UdpClient background = new UdpClient();
 
 
+            // 데이타 수신
+            IPEndPoint epRemote = new IPEndPoint(IPAddress.Any, 8888);
 
-                // UdpClient 객체 성성
-                UdpClient background = new UdpClient();
+            vars[10] = Convert.ToChar(background.Receive(ref epRemote));
 
+            background.Close();
 
-                // 데이타 수신
-                IPEndPoint epRemote = new IPEndPoint(IPAddress.Any, 0);
-
-            count:
-
-            if (vrbl.count != 4)
-            {
-                if (vrbl.count == 0)
-                    fds = Convert.ToString(background.Receive(ref epRemote)); // byte to string
-
-                if (vrbl.count == 1)
-                    uvs = Convert.ToString(background.Receive(ref epRemote)); // byte to string
-
-                if (vrbl.count == 2)
-                    temps = Convert.ToString(background.Receive(ref epRemote)); // byte to string
-
-                if (vrbl.count == 3)
-                    hums = Convert.ToString(background.Receive(ref epRemote)); // byte to string
-
-                // UdpClient 닫기
-                background.Close();
-                vrbl.count++;
-                goto count;
-
-            }
-
+            after();
         }
-    }
+
+        static void after()
+        {
+            vrbl.temps = vars[0] + vars[1];
+            vrbl.hums = vars[2] + vars[3];
+            vrbl.uvs = vars[4] + vars[5];
+            vrbl.fds = vars[6] + vars[7];
+
+            Form1.findusts.Text =  
+
+            main();
+        }
+     }
 }
