@@ -34,7 +34,6 @@ namespace WindowsFormsApp1
             this.uv = new System.Windows.Forms.Label();
             this.temperature = new System.Windows.Forms.Label();
             this.humidity = new System.Windows.Forms.Label();
-
             this.findusts = new System.Windows.Forms.Label();
             this.uvs = new System.Windows.Forms.Label();
             this.temps = new System.Windows.Forms.Label();
@@ -214,6 +213,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label tempb;
         private System.Windows.Forms.Label humb;
         private System.Windows.Forms.Label log;
+        
     }
 }
 
