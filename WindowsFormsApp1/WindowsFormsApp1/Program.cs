@@ -65,7 +65,7 @@ namespace WindowsFormsApp1
             vrbl.uvs = vars[4] + vars[5];
             vrbl.fds = vars[6] + vars[7];
 
-            Form1.findusts.Text =  
+            Form1.findusts.Text =
 
             main();
         }

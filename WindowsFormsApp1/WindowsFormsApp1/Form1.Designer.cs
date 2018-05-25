@@ -28,12 +28,13 @@ namespace WindowsFormsApp1
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+        public void InitializeComponent()
         {
             this.findust = new System.Windows.Forms.Label();
             this.uv = new System.Windows.Forms.Label();
             this.temperature = new System.Windows.Forms.Label();
             this.humidity = new System.Windows.Forms.Label();
+
             this.findusts = new System.Windows.Forms.Label();
             this.uvs = new System.Windows.Forms.Label();
             this.temps = new System.Windows.Forms.Label();
@@ -213,8 +214,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label tempb;
         private System.Windows.Forms.Label humb;
         private System.Windows.Forms.Label log;
-
-        
     }
 }
 

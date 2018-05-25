@@ -18,3 +18,10 @@ C:\Users\kochanhyeon\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsForm
 C:\Users\kochanhyeon\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\kochanhyeon\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
