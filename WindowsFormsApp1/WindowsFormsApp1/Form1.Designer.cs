@@ -44,6 +44,7 @@ namespace WindowsFormsApp1
             this.humb = new System.Windows.Forms.Label();
             this.log = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            
             // 
             // findust
             // 
@@ -213,7 +214,11 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label tempb;
         private System.Windows.Forms.Label humb;
         private System.Windows.Forms.Label log;
-        
+
+        public void SetTextboxTextSafe(int result)
+        {
+            findusts.Text = result.ToString();
+        }
     }
 }
 

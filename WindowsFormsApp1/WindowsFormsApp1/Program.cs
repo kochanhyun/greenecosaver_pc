@@ -33,12 +33,12 @@ namespace WindowsFormsApp1
         static public int fds, uvs, temps, hums;
         static public bool started;
 
-        static void main()
+        static void Main()
         {
-            udpsockets.main();
+            Udpsockets.main();
         }
     }
-    public class udpsockets
+    public class Udpsockets
     {
         static char[] vars;
 
@@ -56,18 +56,17 @@ namespace WindowsFormsApp1
 
             background.Close();
 
-            after();
+            After();
         }
 
-        static void after()
+        static void After()
         {
             vrbl.temps = vars[0] + vars[1];
             vrbl.hums = vars[2] + vars[3];
             vrbl.uvs = vars[4] + vars[5];
             vrbl.fds = vars[6] + vars[7];
 
-            Form1.InitializeComponent()
-
+            Form1.SetTextboxTextSafe(vrbl.fds);
             main();
         }
      }

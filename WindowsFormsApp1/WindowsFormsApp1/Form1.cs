@@ -19,5 +19,9 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+        public void TextboxTextSafe(int result)
+        {
+            findusts.Text = result.ToString();
+        }
     }
 }
