@@ -215,10 +215,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label humb;
         private System.Windows.Forms.Label log;
 
-        public void SetTextboxTextSafe(int result)
-        {
-            findusts.Text = result.ToString();
-        }
     }
 }
 
