@@ -19,15 +19,5 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-
-        public void TextboxTextSafe(string result)
-        {
-            findusts.Text = result.ToString();
-        }
-
-
-        delegate string setfind(string setfindv);
-        public string setfindv;
-        setfindv = TextboxTextSafe();
     }
 }

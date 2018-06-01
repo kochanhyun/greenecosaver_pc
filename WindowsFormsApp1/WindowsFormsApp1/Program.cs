@@ -9,7 +9,6 @@ using System.Net.Sockets;
 using System.IO;
 using System.Timers;
 
-
 namespace WindowsFormsApp1
 {
     static class Program
@@ -24,6 +23,7 @@ namespace WindowsFormsApp1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+
         }
     }
 
@@ -66,7 +66,7 @@ namespace WindowsFormsApp1
             vrbl.uvs = vars[4] + vars[5];
             vrbl.fds = vars[6] + vars[7];
 
-            Form1.TextboxTextSafe(vrbl.fds);
+            //Form1.Text\(Convert.ToString(vrbl.fds));
             main();
         }
      }
