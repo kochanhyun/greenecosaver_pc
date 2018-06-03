@@ -48,15 +48,19 @@ namespace WindowsFormsApp1
             // UdpClient 객체 성성
             UdpClient background = new UdpClient();
 
+            try
+            {
+                // 데이타 수신
+                IPEndPoint epRemote = new IPEndPoint(IPAddress.Any, 8888);
 
-            // 데이타 수신
-            IPEndPoint epRemote = new IPEndPoint(IPAddress.Any, 8888);
+                vars[10] = Convert.ToChar(background.Receive(ref epRemote));
+            }
+            finally
+            {
+                background.Close();
+                After();
+            }
 
-            vars[10] = Convert.ToChar(background.Receive(ref epRemote));
-
-            background.Close();
-
-            After();
         }
 
         static void After()
@@ -66,7 +70,6 @@ namespace WindowsFormsApp1
             vrbl.uvs = vars[4] + vars[5];
             vrbl.fds = vars[6] + vars[7];
 
-            //Form1.Text\(Convert.ToString(vrbl.fds));
             main();
         }
      }

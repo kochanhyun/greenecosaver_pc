@@ -42,9 +42,7 @@ namespace WindowsFormsApp1
             this.uvb = new System.Windows.Forms.Label();
             this.tempb = new System.Windows.Forms.Label();
             this.humb = new System.Windows.Forms.Label();
-            this.log = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            
             // 
             // findust
             // 
@@ -166,21 +164,11 @@ namespace WindowsFormsApp1
             this.humb.TabIndex = 12;
             this.humb.Text = "좋음";
             // 
-            // log
-            // 
-            this.log.AutoSize = true;
-            this.log.Location = new System.Drawing.Point(65, 405);
-            this.log.Name = "log";
-            this.log.Size = new System.Drawing.Size(22, 12);
-            this.log.TabIndex = 13;
-            this.log.Text = "log";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.log);
             this.Controls.Add(this.humb);
             this.Controls.Add(this.tempb);
             this.Controls.Add(this.uvb);
@@ -213,7 +201,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label uvb;
         private System.Windows.Forms.Label tempb;
         private System.Windows.Forms.Label humb;
-        private System.Windows.Forms.Label log;
     }
 }
 
