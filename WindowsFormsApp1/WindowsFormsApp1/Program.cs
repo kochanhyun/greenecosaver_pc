@@ -7,7 +7,6 @@ using System.Text;
 using System.Net;
 using System.Net.Sockets;
 using System.IO;
-using System.Timers;
 
 namespace WindowsFormsApp1
 {
@@ -16,7 +15,6 @@ namespace WindowsFormsApp1
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        [STAThread]
         static void Main()
         {
             // Form 실행하기
