@@ -1,17 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Text;
 using System.Net;
 using System.Net.Sockets;
-using System.IO;
 
 namespace WindowsFormsApp1
 {
+
+
     static class Program
     {
+        // 변수 선언
+        static public int fds, uvs, temps, hums;
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -21,26 +21,14 @@ namespace WindowsFormsApp1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-
         }
     }
 
-    public class vrbl
-    {
-        // 변수 선언 클래스
-        static public int fds, uvs, temps, hums;
-        static public bool started;
-
-        static void Main()
-        {
-            Udpsockets.main();
-        }
-    }
     public class Udpsockets
     {
         static char[] vars;
 
-        public static void main()
+        public static void udp()
         {
 
             // UdpClient 객체 성성
@@ -63,12 +51,12 @@ namespace WindowsFormsApp1
 
         static void After()
         {
-            vrbl.temps = vars[0] + vars[1];
-            vrbl.hums = vars[2] + vars[3];
-            vrbl.uvs = vars[4] + vars[5];
-            vrbl.fds = vars[6] + vars[7];
+            WindowsFormsApp1.Program.temps = vars[0] + vars[1];
+            WindowsFormsApp1.Program.hums = vars[2] + vars[3];
+            WindowsFormsApp1.Program.uvs = vars[4] + vars[5];
+            WindowsFormsApp1.Program.fds = vars[6] + vars[7];
 
-            main();
+            udp();
         }
      }
 }

@@ -22,10 +22,10 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.findusts.Text = Convert.ToString(vrbl.fds);
-            this.uvs.Text = Convert.ToString(vrbl.uvs);
-            this.temps.Text = Convert.ToString(vrbl.temps);
-            this.hums.Text = Convert.ToString(vrbl.hums);
+            this.findusts.Text = Convert.ToString(Program.fds);
+            this.uvs.Text = Convert.ToString(Program.uvs);
+            this.temps.Text = Convert.ToString(Program.temps);
+            this.hums.Text = Convert.ToString(Program.hums);
         }
     }
 }
