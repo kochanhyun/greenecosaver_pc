@@ -26,7 +26,7 @@ namespace WindowsFormsApp1
 
     public class Udpsockets
     {
-        static char[] vars;
+        static int[] vars;
 
         public static void udp()
         {
@@ -39,7 +39,7 @@ namespace WindowsFormsApp1
                 // 데이타 수신
                 IPEndPoint epRemote = new IPEndPoint(IPAddress.Any, 8888);
 
-                vars[10] = Convert.ToChar(background.Receive(ref epRemote));
+                vars[3] = Convert.ToChar(background.Receive(ref epRemote));
             }
             finally
             {
@@ -51,10 +51,10 @@ namespace WindowsFormsApp1
 
         static void After()
         {
-            WindowsFormsApp1.Program.temps = vars[0] + vars[1];
-            WindowsFormsApp1.Program.hums = vars[2] + vars[3];
-            WindowsFormsApp1.Program.uvs = vars[4] + vars[5];
-            WindowsFormsApp1.Program.fds = vars[6] + vars[7];
+            WindowsFormsApp1.Program.temps = vars[0];
+            WindowsFormsApp1.Program.hums = vars[1];
+            WindowsFormsApp1.Program.uvs = vars[2];
+            WindowsFormsApp1.Program.fds = vars[3];
 
             udp();
         }
