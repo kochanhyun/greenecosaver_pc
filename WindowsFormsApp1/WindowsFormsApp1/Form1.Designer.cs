@@ -32,45 +32,35 @@ namespace WindowsFormsApp1
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.findust = new System.Windows.Forms.Label();
-            this.uv = new System.Windows.Forms.Label();
             this.temperature = new System.Windows.Forms.Label();
             this.humidity = new System.Windows.Forms.Label();
             this.findusts = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.uv = new System.Windows.Forms.Label();
             this.uvs = new System.Windows.Forms.Label();
             this.temps = new System.Windows.Forms.Label();
             this.hums = new System.Windows.Forms.Label();
-            this.Findustb = new System.Windows.Forms.Label();
-            this.uvb = new System.Windows.Forms.Label();
-            this.tempb = new System.Windows.Forms.Label();
-            this.humb = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.fdc = new System.Windows.Forms.Label();
+            this.uvc = new System.Windows.Forms.Label();
+            this.tpc = new System.Windows.Forms.Label();
+            this.hmc = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // findust
             // 
             this.findust.AutoSize = true;
             this.findust.Font = new System.Drawing.Font("맑은 고딕", 18F);
-            this.findust.Location = new System.Drawing.Point(23, 66);
+            this.findust.Location = new System.Drawing.Point(55, 45);
             this.findust.Name = "findust";
             this.findust.Size = new System.Drawing.Size(111, 32);
             this.findust.TabIndex = 1;
             this.findust.Text = "미세먼지";
             // 
-            // uv
-            // 
-            this.uv.AutoSize = true;
-            this.uv.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uv.Location = new System.Drawing.Point(34, 148);
-            this.uv.Name = "uv";
-            this.uv.Size = new System.Drawing.Size(87, 32);
-            this.uv.TabIndex = 2;
-            this.uv.Text = "자외선";
-            // 
             // temperature
             // 
             this.temperature.AutoSize = true;
             this.temperature.Font = new System.Drawing.Font("맑은 고딕", 18F);
-            this.temperature.Location = new System.Drawing.Point(46, 226);
+            this.temperature.Location = new System.Drawing.Point(55, 163);
             this.temperature.Name = "temperature";
             this.temperature.Size = new System.Drawing.Size(63, 32);
             this.temperature.TabIndex = 3;
@@ -80,7 +70,7 @@ namespace WindowsFormsApp1
             // 
             this.humidity.AutoSize = true;
             this.humidity.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.humidity.Location = new System.Drawing.Point(46, 304);
+            this.humidity.Location = new System.Drawing.Point(55, 223);
             this.humidity.Name = "humidity";
             this.humidity.Size = new System.Drawing.Size(63, 32);
             this.humidity.TabIndex = 4;
@@ -89,87 +79,17 @@ namespace WindowsFormsApp1
             // findusts
             // 
             this.findusts.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.findusts.Location = new System.Drawing.Point(162, 65);
+            this.findusts.Location = new System.Drawing.Point(190, 45);
             this.findusts.Name = "findusts";
             this.findusts.Size = new System.Drawing.Size(111, 32);
             this.findusts.TabIndex = 5;
             this.findusts.Text = "0";
             this.findusts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // uvs
-            // 
-            this.uvs.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uvs.Location = new System.Drawing.Point(171, 148);
-            this.uvs.Name = "uvs";
-            this.uvs.Size = new System.Drawing.Size(92, 32);
-            this.uvs.TabIndex = 6;
-            this.uvs.Text = "0";
-            this.uvs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // temps
-            // 
-            this.temps.Font = new System.Drawing.Font("맑은 고딕", 18F);
-            this.temps.Location = new System.Drawing.Point(183, 226);
-            this.temps.Name = "temps";
-            this.temps.Size = new System.Drawing.Size(68, 32);
-            this.temps.TabIndex = 7;
-            this.temps.Text = "0";
-            this.temps.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // hums
-            // 
-            this.hums.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.hums.Location = new System.Drawing.Point(181, 295);
-            this.hums.Name = "hums";
-            this.hums.Size = new System.Drawing.Size(73, 32);
-            this.hums.TabIndex = 8;
-            this.hums.Text = "0";
-            this.hums.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Findustb
-            // 
-            this.Findustb.AutoSize = true;
-            this.Findustb.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.Findustb.Location = new System.Drawing.Point(325, 65);
-            this.Findustb.Name = "Findustb";
-            this.Findustb.Size = new System.Drawing.Size(63, 32);
-            this.Findustb.TabIndex = 9;
-            this.Findustb.Text = "좋음";
-            // 
-            // uvb
-            // 
-            this.uvb.AutoSize = true;
-            this.uvb.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uvb.Location = new System.Drawing.Point(325, 148);
-            this.uvb.Name = "uvb";
-            this.uvb.Size = new System.Drawing.Size(63, 32);
-            this.uvb.TabIndex = 10;
-            this.uvb.Text = "좋음";
-            // 
-            // tempb
-            // 
-            this.tempb.AutoSize = true;
-            this.tempb.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.tempb.Location = new System.Drawing.Point(325, 226);
-            this.tempb.Name = "tempb";
-            this.tempb.Size = new System.Drawing.Size(63, 32);
-            this.tempb.TabIndex = 11;
-            this.tempb.Text = "좋음";
-            // 
-            // humb
-            // 
-            this.humb.AutoSize = true;
-            this.humb.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.humb.Location = new System.Drawing.Point(326, 304);
-            this.humb.Name = "humb";
-            this.humb.Size = new System.Drawing.Size(63, 32);
-            this.humb.TabIndex = 12;
-            this.humb.Text = "좋음";
-            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("굴림", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(133, 372);
+            this.button1.Location = new System.Drawing.Point(306, 272);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(161, 47);
             this.button1.TabIndex = 13;
@@ -177,16 +97,88 @@ namespace WindowsFormsApp1
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // uv
+            // 
+            this.uv.AutoSize = true;
+            this.uv.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.uv.Location = new System.Drawing.Point(55, 103);
+            this.uv.Name = "uv";
+            this.uv.Size = new System.Drawing.Size(87, 32);
+            this.uv.TabIndex = 2;
+            this.uv.Text = "자외선";
+            // 
+            // uvs
+            // 
+            this.uvs.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.uvs.Location = new System.Drawing.Point(190, 103);
+            this.uvs.Name = "uvs";
+            this.uvs.Size = new System.Drawing.Size(111, 32);
+            this.uvs.TabIndex = 5;
+            this.uvs.Text = "0";
+            this.uvs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // temps
+            // 
+            this.temps.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.temps.Location = new System.Drawing.Point(190, 163);
+            this.temps.Name = "temps";
+            this.temps.Size = new System.Drawing.Size(111, 32);
+            this.temps.TabIndex = 5;
+            this.temps.Text = "0";
+            this.temps.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // hums
+            // 
+            this.hums.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.hums.Location = new System.Drawing.Point(190, 223);
+            this.hums.Name = "hums";
+            this.hums.Size = new System.Drawing.Size(111, 32);
+            this.hums.TabIndex = 5;
+            this.hums.Text = "0";
+            this.hums.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // fdc
+            // 
+            this.fdc.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.fdc.Location = new System.Drawing.Point(23, 52);
+            this.fdc.Name = "fdc";
+            this.fdc.Size = new System.Drawing.Size(16, 16);
+            this.fdc.TabIndex = 14;
+            // 
+            // uvc
+            // 
+            this.uvc.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.uvc.Location = new System.Drawing.Point(23, 110);
+            this.uvc.Name = "uvc";
+            this.uvc.Size = new System.Drawing.Size(16, 16);
+            this.uvc.TabIndex = 14;
+            // 
+            // tpc
+            // 
+            this.tpc.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.tpc.Location = new System.Drawing.Point(23, 171);
+            this.tpc.Name = "tpc";
+            this.tpc.Size = new System.Drawing.Size(16, 16);
+            this.tpc.TabIndex = 14;
+            // 
+            // hmc
+            // 
+            this.hmc.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.hmc.Location = new System.Drawing.Point(23, 232);
+            this.hmc.Name = "hmc";
+            this.hmc.Size = new System.Drawing.Size(16, 16);
+            this.hmc.TabIndex = 14;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 450);
+            this.ClientSize = new System.Drawing.Size(488, 340);
+            this.Controls.Add(this.hmc);
+            this.Controls.Add(this.tpc);
+            this.Controls.Add(this.uvc);
+            this.Controls.Add(this.fdc);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.humb);
-            this.Controls.Add(this.tempb);
-            this.Controls.Add(this.uvb);
-            this.Controls.Add(this.Findustb);
             this.Controls.Add(this.hums);
             this.Controls.Add(this.temps);
             this.Controls.Add(this.uvs);
@@ -199,26 +191,26 @@ namespace WindowsFormsApp1
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "  ";
+            this.Text = "GreenEcoSaver_PC";
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label findust;
-        private System.Windows.Forms.Label uv;
-        private System.Windows.Forms.Label temperature;
-        private System.Windows.Forms.Label humidity;
-        public System.Windows.Forms.Label findusts;
-        public System.Windows.Forms.Label uvs;
-        public System.Windows.Forms.Label temps;
-        public System.Windows.Forms.Label hums;
-        private System.Windows.Forms.Label Findustb;
-        private System.Windows.Forms.Label uvb;
-        private System.Windows.Forms.Label tempb;
-        private System.Windows.Forms.Label humb;
+        private Label findust;
+        private Label temperature;
+        private Label humidity;
+        public Label findusts;
         private Button button1;
+        public Label uv;
+        public Label uvs;
+        public Label temps;
+        public Label hums;
+        private Label fdc;
+        private Label uvc;
+        private Label tpc;
+        private Label hmc;
     }
 }
 
