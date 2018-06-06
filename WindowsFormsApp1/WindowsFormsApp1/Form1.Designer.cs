@@ -22,6 +22,14 @@ namespace WindowsFormsApp1
             base.Dispose(disposing);
         }
 
+        
+        private Label findust;
+        private Label temperature;
+        private Label humidity;
+        public Label findusts;
+        private Button button1;
+        public Label uv;
+        
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -79,7 +87,7 @@ namespace WindowsFormsApp1
             // findusts
             // 
             this.findusts.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.findusts.Location = new System.Drawing.Point(190, 45);
+            this.findusts.Location = new System.Drawing.Point(178, 45);
             this.findusts.Name = "findusts";
             this.findusts.Size = new System.Drawing.Size(111, 32);
             this.findusts.TabIndex = 5;
@@ -88,8 +96,8 @@ namespace WindowsFormsApp1
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("굴림", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.Location = new System.Drawing.Point(306, 272);
+            this.button1.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.Location = new System.Drawing.Point(64, 281);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(161, 47);
             this.button1.TabIndex = 13;
@@ -110,7 +118,7 @@ namespace WindowsFormsApp1
             // uvs
             // 
             this.uvs.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uvs.Location = new System.Drawing.Point(190, 103);
+            this.uvs.Location = new System.Drawing.Point(178, 103);
             this.uvs.Name = "uvs";
             this.uvs.Size = new System.Drawing.Size(111, 32);
             this.uvs.TabIndex = 5;
@@ -120,7 +128,7 @@ namespace WindowsFormsApp1
             // temps
             // 
             this.temps.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.temps.Location = new System.Drawing.Point(190, 163);
+            this.temps.Location = new System.Drawing.Point(178, 163);
             this.temps.Name = "temps";
             this.temps.Size = new System.Drawing.Size(111, 32);
             this.temps.TabIndex = 5;
@@ -130,7 +138,7 @@ namespace WindowsFormsApp1
             // hums
             // 
             this.hums.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.hums.Location = new System.Drawing.Point(190, 223);
+            this.hums.Location = new System.Drawing.Point(178, 223);
             this.hums.Name = "hums";
             this.hums.Size = new System.Drawing.Size(111, 32);
             this.hums.TabIndex = 5;
@@ -173,7 +181,7 @@ namespace WindowsFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(488, 340);
+            this.ClientSize = new System.Drawing.Size(301, 340);
             this.Controls.Add(this.hmc);
             this.Controls.Add(this.tpc);
             this.Controls.Add(this.uvc);
@@ -192,18 +200,13 @@ namespace WindowsFormsApp1
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "GreenEcoSaver_PC";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private Label findust;
-        private Label temperature;
-        private Label humidity;
-        public Label findusts;
-        private Button button1;
-        public Label uv;
         public Label uvs;
         public Label temps;
         public Label hums;
