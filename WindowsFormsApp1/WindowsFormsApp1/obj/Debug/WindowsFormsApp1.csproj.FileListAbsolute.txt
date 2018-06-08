@@ -29,3 +29,10 @@ C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\
 C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
 C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.manifest
 C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application
+C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.manifest
+C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
+C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.manifest
+C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application

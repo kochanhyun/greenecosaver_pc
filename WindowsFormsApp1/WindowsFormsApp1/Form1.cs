@@ -32,7 +32,8 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            Udpsockets.udp();
+            //Console.WriteLine("콘솔 및 UDP 클라이언트 객체 생성 완료.");
         }
     }
 }
