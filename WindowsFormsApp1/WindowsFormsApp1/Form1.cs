@@ -36,36 +36,33 @@ namespace WindowsFormsApp1
         }
         static public void udpsockets()
         {
-            Console.WriteLine("Hello winform");
-            //UdpClient 객체 성성
-            UdpClient background = new UdpClient();
+            // (1) UdpClient 객체 성성. 포트 7777 에서 Listening
+            UdpClient background = new UdpClient(8888);
+
+            // 클라이언트 IP를 담을 변수
             IPEndPoint remoteEP = new IPEndPoint(IPAddress.Any, 0);
 
-            Console.WriteLine("콘솔 및 UDP 클라이언트 객체 생성 완료.");
-
-            bugcatch:
             while (true)
             {
+                bugcatch:
                 try
                 {
                     byte[] dgram = background.Receive(ref remoteEP);
                     Console.WriteLine("[Receive] {0} 로부터 {1} 바이트 수신", remoteEP.ToString(), dgram.Length);
 
-                    Program.temps = dgram[0];
-                    Program.hums = dgram[1];
-                    Program.uvs = dgram[2];
-                    Program.fds = dgram[3];
-
+                    Program.fds = Convert.ToInt32(dgram[0]);
+                    //Program.uvs = Convert.ToInt32(dgram[1]);
+                    //Program.temps = Convert.ToInt32(dgram[2]);
+                    //Program.hums = Convert.ToInt32(dgram[3]);
 
                     background.Send(dgram, dgram.Length, remoteEP);
                     Console.WriteLine("[Send] {0} 로 {1} 바이트 송신", remoteEP.ToString(), dgram.Length);
                 }
-                catch
+                catch 
                 {
                     goto bugcatch;
                 }
             }
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
