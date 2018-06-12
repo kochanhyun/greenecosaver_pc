@@ -54,7 +54,7 @@ namespace WindowsFormsApp1
                     Console.WriteLine("[Receive] {0} 로부터 {1} 바이트 수신", remoteEP.ToString(), dgram.Length);
 
                     // 이거만 하면 끝이당
-                    Program.sgram = "11111111";
+                    Program.sgram = Encoding.UTF8.GetString(dgram);
                     Program.fds = Int32.Parse(Program.sgram.Substring(0, 2));
                     Program.uvs = Int32.Parse(Program.sgram.Substring(2, 2));
                     Program.temps = Int32.Parse(Program.sgram.Substring(4, 2));
