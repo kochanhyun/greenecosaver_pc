@@ -9,6 +9,7 @@ namespace WindowsFormsApp1
     {
         // 변수 선언
         static public int fds, uvs, temps, hums;
+        static public string sgram;
 
         /// <summary>
         /// The main entry point for the application.

@@ -4,7 +4,8 @@ using System.Drawing;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
-
+using static System.Net.Mime.MediaTypeNames;
+using System.Text;
 
 namespace WindowsFormsApp1
 {
@@ -14,6 +15,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             new Thread(new ThreadStart(udpsockets)).Start();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -36,6 +38,7 @@ namespace WindowsFormsApp1
         }
         static public void udpsockets()
         {
+            
             // (1) UdpClient 객체 성성. 포트 7777 에서 Listening
             UdpClient background = new UdpClient(8888);
 
@@ -50,10 +53,12 @@ namespace WindowsFormsApp1
                     byte[] dgram = background.Receive(ref remoteEP);
                     Console.WriteLine("[Receive] {0} 로부터 {1} 바이트 수신", remoteEP.ToString(), dgram.Length);
 
-                    Program.fds = Convert.ToInt32(dgram[0]);
-                    //Program.uvs = Convert.ToInt32(dgram[1]);
-                    //Program.temps = Convert.ToInt32(dgram[2]);
-                    //Program.hums = Convert.ToInt32(dgram[3]);
+                    // 이거만 하면 끝이당
+                    Program.sgram = "11111111";
+                    Program.fds = Int32.Parse(Program.sgram.Substring(0, 2));
+                    Program.uvs = Int32.Parse(Program.sgram.Substring(2, 2));
+                    Program.temps = Int32.Parse(Program.sgram.Substring(4, 2));
+                    Program.hums = Int32.Parse(Program.sgram.Substring(6, 2));
 
                     background.Send(dgram, dgram.Length, remoteEP);
                     Console.WriteLine("[Send] {0} 로 {1} 바이트 송신", remoteEP.ToString(), dgram.Length);
