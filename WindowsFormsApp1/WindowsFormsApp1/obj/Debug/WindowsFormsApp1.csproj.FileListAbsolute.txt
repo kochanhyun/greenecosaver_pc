@@ -1,12 +1,6 @@
-C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
-C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
-C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
-C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
 C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
-C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
-C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\kochanhyeon\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
 C:\Users\kochanhyeon\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 C:\Users\kochanhyeon\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
@@ -25,10 +19,6 @@ C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsA
 C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
-C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.manifest
-C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
-C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.manifest
-C:\Users\rhcks\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application
 C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
 C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.manifest
 C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.application
@@ -36,3 +26,13 @@ C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsA
 C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.manifest
 C:\Users\rhcksgus2\Documents\GreenEcoSaver-Pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.application
+C:\Users\rhcks\Documents\greenecosaver-pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\greenecosaverpc.exe.config
+C:\Users\rhcks\Documents\greenecosaver-pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\greenecosaverpc.exe.manifest
+C:\Users\rhcks\Documents\greenecosaver-pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\greenecosaverpc.application
+C:\Users\rhcks\Documents\greenecosaver-pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\greenecosaverpc.exe
+C:\Users\rhcks\Documents\greenecosaver-pcform\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\greenecosaverpc.pdb
+C:\Users\rhcks\Documents\greenecosaver-pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\GreenEcoSaverPc.Properties.Resources.resources
+C:\Users\rhcks\Documents\greenecosaver-pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\greenecosaverpc.exe.manifest
+C:\Users\rhcks\Documents\greenecosaver-pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\greenecosaverpc.application
+C:\Users\rhcks\Documents\greenecosaver-pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\greenecosaverpc.exe
+C:\Users\rhcks\Documents\greenecosaver-pcform\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\greenecosaverpc.pdb
